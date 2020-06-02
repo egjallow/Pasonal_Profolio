@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navbar{
+  display: flex;
+  flex-direction:row;
+  width:100%;
+  height:10vh;
+  position:fixed;
+  background-color:#824632;
+  color: white
+  
+}
+
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:100%; 
+  color:white
+}
+
+#navbar img{
+  width:50px;
+  height: 40px
+    
+}
+#navbar a {
+  color: white;
+}
+
+
+.project-tile{
+  width: 30%;
+  margin: 1.66%;
+  height:250px;
+}
+
+#projects{
+  display: flex;
+  flex-direction:row;
+  flex-warp: wrap;
+}
+
+img{
+  width: 100%;
+  height:250px;
+}
+a {
+  text-decoration: none;
+  
+}
+ul {
+  list-style-type: none;
+}
+
+#welcome-section{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contacts{
+  margin-top:60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contacts> ul{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+  
+}
+
+#contacts a{
+  padding:10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #projects{
+  display: flex;
+  flex-direction:column;
+ 
+}
+  
+  #projects div{
+    width:100%;
+    margin-bottom: 5rem;
+    text-align: center;    
+  }
+  
+  #contacts p{
+    font-size: xx-small;
+  }
